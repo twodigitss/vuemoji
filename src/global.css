@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Inter", Arial, 'Noto Sans', sans-serif;  
+
+  --diamond: #cfe4ef;
+  --day: #ffffcc;
+  --night: #afc0d6;
+
+  --body: #151515;
+  --bg_0: #1f1f1f;
+  --text: #f5f5f5;
+  --sep: #2a2a2a;
+  --text_hover: var(--diamond);
+  
+}
+
+[data-theme="light"] {
+  --body: #ffffff;
+  --bg_0: #f5f5f5;
+  --text: #303030;
+  --sep: #dedede;
+  --text_hover: var(--night);
+}
+
+[data-theme="dark"] {
+  --body: #191919;
+  --bg_0: #1f1f1f;
+  --text: #ececec;
+  --sep: #2a2a2a;
+  --text_hover: var(--diamond);
+}
+
+html{
+    background-color: var(--body);
+    color: var(--text);
+}
+
+body{
+    padding: 5rem 15rem 15rem 15rem;
+}
