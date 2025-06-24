@@ -2,10 +2,12 @@
 
 :root {
   font-family: "Inter", Arial, 'Noto Sans', sans-serif;  
+  --fz: 2rem;
 
   --diamond: #cfe4ef;
   --day: #ffffcc;
   --night: #afc0d6;
+  --accent: hsl(80, 90%, 60%, 40%);
 
   --body: #151515;
   --bg_0: #1f1f1f;
@@ -37,5 +39,5 @@ html{
 }
 
 body{
-    padding: 5rem 15rem 15rem 15rem;
+    padding: 5rem 13rem 15rem 13rem;
 }
